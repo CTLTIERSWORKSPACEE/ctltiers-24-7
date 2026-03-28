@@ -3,11 +3,12 @@ from discord.ext import commands
 from discord import app_commands
 import requests
 from datetime import datetime
+import os
 
-BOT_TOKEN   = 'MTQ4NDk5NzM0NDcyMTEwOTE5Mg.G43Loq.Nrf7g8DBXPgVUNh0OnC8F1-iI6Ne_8R3TzLv7E'
+BOT_TOKEN   = os.environ.get('MTQ4NDk5NzM0NDcyMTEwOTE5Mg.GWsvU3.9iTL15gw6qa2mlIhW76I1g7vUdxKnTOk0C5PKg')
 CLIENT_ID   = '1484997344721109192'
-GUILD_ID    = '1475393525087731756'
-RESULTS_CH  = '1475396582139625626'
+GUILD_ID    = 1475393525087731756
+RESULTS_CH  = 1475396582139625626
 JSONBIN_URL = 'https://api.jsonbin.io/v3/b/69b1a75fb7ec241ddc5e061c'
 JSONBIN_KEY = '$2a$10$RvxtXiqPMhp6dWy3dgRLrOW6hJHGFIFnbrnB56SSR8nrOKXNpgDtS'
 
