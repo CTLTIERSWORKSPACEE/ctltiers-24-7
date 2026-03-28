@@ -4,7 +4,7 @@ from discord import app_commands
 import requests
 from datetime import datetime
 
-BOT_TOKEN   = 'MTQ4NDk5NzM0NDcyMTEwOTE5Mg.G1-80C.AghAvI-XBOe0XC-QlFWtSv-nLCKDggNfRw_AT0'
+BOT_TOKEN   = 'MTQ4NDk5NzM0NDcyMTEwOTE5Mg.GYgvCi.MTjOecc_gRhmasl_rmW3KcKuAeDLm55cpSSY20'
 CLIENT_ID   = '1484997344721109192'
 GUILD_ID    = 1475393525087731756
 RESULTS_CH  = 1475396582139625626
